@@ -1,8 +1,13 @@
-mocha-awesome puuttuu...
-
 ```bash
+# mocha + mochawesome
 npm test
+# c8
 npm run test:coverage
+# c8 (manual lcov)
+npx c8 report --reporter=lcov
+
+# coveralls
+export COVERALLS_REPO_TOKEN=<TOKEN>
 npm run coveralls
 ```
 
