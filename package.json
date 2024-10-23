@@ -1,0 +1,20 @@
+{
+  "name": "sw-testing-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:coverage": "c8 mocha",
+    "coveralls": "npx c8 report --reporter=lcov && coveralls < coverage/lcov.info"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "c8": "^10.1.2",
+    "chai": "^5.1.2",
+    "coveralls": "^3.1.1",
+    "mocha": "^10.7.3"
+  }
+}
